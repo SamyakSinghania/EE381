@@ -1,0 +1,32 @@
+MAIN_PROG       CODE
+
+start
+
+	bsf STATUS,RP0
+    bcf STATUS,RP1
+    movlw 0x00
+    movwf ADCON1
+    bsf TRISA,1
+    clrf TRISB
+	bcf STATUS,RP0
+    movlw 0x09
+    movwf ADCON0
+
+loop: bsf ADCON0,2
+      goto loop1
+   
+output: btfsc ADCON0,2
+        goto loop1
+        movf ADRESH,w
+        movwf PORTB
+        goto loop
+
+loop1: movlw 0x10
+       movwf count
+       goto delay
+
+delay: decfsz count
+       goto delay
+       goto output
+ 
+    END                       ; directive 'end of program'
