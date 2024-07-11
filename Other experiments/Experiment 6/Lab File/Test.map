@@ -1,0 +1,65 @@
+MPLINK 4.20, Linker
+Linker Map File - Created Tue Mar 06 14:54:49 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+             RESET_VECTOR       code   0x000000    program   0x000008
+               INT_VECTOR       code   0x000004    program   0x000018
+                   .cinit    romdata   0x000010    program   0x000004
+                MAIN_PROG       code   0x000012    program   0x00003a
+                  .config       code   0x002007    program   0x000002
+                   G_DATA      udata   0x000020       data   0x000003
+                 TEMP_VAR      udata   0x000023       data   0x000001
+                  INT_VAR      udata   0x000070       data   0x000003
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00002e      
+                            0x002007    0x002007      
+            48 out of 8453 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                INTERRUPT   0x000004    program     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+                     dly1   0x00001a    program     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+                     dly2   0x00001d    program     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+                     dly3   0x000026    program     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+                     dly4   0x000029    program     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+                    loop1   0x000016    program     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+                    start   0x000012    program     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+                      dc1   0x000020       data     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+                      dc2   0x000021       data     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+                     flag   0x000020       data     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+              pclath_temp   0x000072       data     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+              status_temp   0x000071       data     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+               temp_count   0x000023       data     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+                   w_temp   0x000070       data     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                INTERRUPT   0x000004    program     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+                    start   0x000012    program     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+                    loop1   0x000016    program     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+                     dly1   0x00001a    program     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+                     dly2   0x00001d    program     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+                     dly3   0x000026    program     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+                     dly4   0x000029    program     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+                      dc1   0x000020       data     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+                     flag   0x000020       data     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+                      dc2   0x000021       data     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+               temp_count   0x000023       data     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+                   w_temp   0x000070       data     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+              status_temp   0x000071       data     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+              pclath_temp   0x000072       data     static C:\Documents and Settings\Administrator\Desktop\Hall12\16F877ATMPO.ASM
+
+

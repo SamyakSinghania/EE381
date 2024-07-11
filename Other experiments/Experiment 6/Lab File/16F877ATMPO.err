@@ -1,0 +1,2 @@
+Message[302] C:\DOCUMENTS AND SETTINGS\ADMINISTRATOR\DESKTOP\HALL12\16F877ATMPO.ASM 101 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[203] C:\DOCUMENTS AND SETTINGS\ADMINISTRATOR\DESKTOP\HALL12\16F877ATMPO.ASM 133 : Found opcode in column 1. (goto)

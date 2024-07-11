@@ -1,0 +1,1437 @@
+000001 8000                  .ORG H'8000
+000002 8000 3E80             MVI A,H'80
+000003 8002 D343             OUT H'43
+000004 8004 3E80             LOOP: MVI A,h'80
+000005 8006 D340             OUT H'40
+000006 8008 3EFF             MVI A,h'FF
+000007 800A D341             OUT H'41
+000008 800C 3E83             MVI A,h'83
+000009 800E D340             OUT H'40
+000010 8010 3EFF             MVI A,h'FF
+000011 8012 D341             OUT H'41
+000012 8014 3E86             MVI A,h'86
+000013 8016 D340             OUT H'40
+000014 8018 3EFF             MVI A,h'FF
+000015 801A D341             OUT H'41
+000016 801C 3E89             MVI A,h'89
+000017 801E D340             OUT H'40
+000018 8020 3EFF             MVI A,h'FF
+000019 8022 D341             OUT H'41
+000020 8024 3E8C             MVI A,h'8C
+000021 8026 D340             OUT H'40
+000022 8028 3EFE             MVI A,h'FE
+000023 802A D341             OUT H'41
+000024 802C 3E8F             MVI A,h'8F
+000025 802E D340             OUT H'40
+000026 8030 3EFE             MVI A,h'FE
+000027 8032 D341             OUT H'41
+000028 8034 3E92             MVI A,h'92
+000029 8036 D340             OUT H'40
+000030 8038 3EFE             MVI A,h'FE
+000031 803A D341             OUT H'41
+000032 803C 3E95             MVI A,h'95
+000033 803E D340             OUT H'40
+000034 8040 3EFD             MVI A,h'FD
+000035 8042 D341             OUT H'41
+000036 8044 3E98             MVI A,h'98
+000037 8046 D340             OUT H'40
+000038 8048 3EFD             MVI A,h'FD
+000039 804A D341             OUT H'41
+000040 804C 3E9C             MVI A,h'9C
+000041 804E D340             OUT H'40
+000042 8050 3EFC             MVI A,h'FC
+000043 8052 D341             OUT H'41
+000044 8054 3E9F             MVI A,h'9F
+000045 8056 D340             OUT H'40
+000046 8058 3EFB             MVI A,h'FB
+000047 805A D341             OUT H'41
+000048 805C 3EA2             MVI A,h'A2
+000049 805E D340             OUT H'40
+000050 8060 3EFA             MVI A,h'FA
+000051 8062 D341             OUT H'41
+000052 8064 3EA5             MVI A,h'A5
+000053 8066 D340             OUT H'40
+000054 8068 3EF9             MVI A,h'F9
+000055 806A D341             OUT H'41
+000056 806C 3EA8             MVI A,h'A8
+000057 806E D340             OUT H'40
+000058 8070 3EF9             MVI A,h'F9
+000059 8072 D341             OUT H'41
+000060 8074 3EAB             MVI A,h'AB
+000061 8076 D340             OUT H'40
+000062 8078 3EF7             MVI A,h'F7
+000063 807A D341             OUT H'41
+000064 807C 3EAE             MVI A,h'AE
+000065 807E D340             OUT H'40
+000066 8080 3EF6             MVI A,h'F6
+000067 8082 D341             OUT H'41
+000068 8084 3EB0             MVI A,h'B0
+000069 8086 D340             OUT H'40
+000070 8088 3EF5             MVI A,h'F5
+000071 808A D341             OUT H'41
+000072 808C 3EB3             MVI A,h'B3
+000073 808E D340             OUT H'40
+000074 8090 3EF4             MVI A,h'F4
+000075 8092 D341             OUT H'41
+000076 8094 3EB6             MVI A,h'B6
+000077 8096 D340             OUT H'40
+000078 8098 3EF3             MVI A,h'F3
+000079 809A D341             OUT H'41
+000080 809C 3EB9             MVI A,h'B9
+000081 809E D340             OUT H'40
+000082 80A0 3EF1             MVI A,h'F1
+000083 80A2 D341             OUT H'41
+000084 80A4 3EBC             MVI A,h'BC
+000085 80A6 D340             OUT H'40
+000086 80A8 3EF0             MVI A,h'F0
+000087 80AA D341             OUT H'41
+000088 80AC 3EBF             MVI A,h'BF
+000089 80AE D340             OUT H'40
+000090 80B0 3EEE             MVI A,h'EE
+000091 80B2 D341             OUT H'41
+000092 80B4 3EC1             MVI A,h'C1
+000093 80B6 D340             OUT H'40
+000094 80B8 3EED             MVI A,h'ED
+000095 80BA D341             OUT H'41
+000096 80BC 3EC4             MVI A,h'C4
+000097 80BE D340             OUT H'40
+000098 80C0 3EEB             MVI A,h'EB
+000099 80C2 D341             OUT H'41
+000100 80C4 3EC7             MVI A,h'C7
+000101 80C6 D340             OUT H'40
+000102 80C8 3EE9             MVI A,h'E9
+000103 80CA D341             OUT H'41
+000104 80CC 3EC9             MVI A,h'C9
+000105 80CE D340             OUT H'40
+000106 80D0 3EE8             MVI A,h'E8
+000107 80D2 D341             OUT H'41
+000108 80D4 3ECC             MVI A,h'CC
+000109 80D6 D340             OUT H'40
+000110 80D8 3EE6             MVI A,h'E6
+000111 80DA D341             OUT H'41
+000112 80DC 3ECE             MVI A,h'CE
+000113 80DE D340             OUT H'40
+000114 80E0 3EE4             MVI A,h'E4
+000115 80E2 D341             OUT H'41
+000116 80E4 3ED1             MVI A,h'D1
+000117 80E6 D340             OUT H'40
+000118 80E8 3EE2             MVI A,h'E2
+000119 80EA D341             OUT H'41
+000120 80EC 3ED3             MVI A,h'D3
+000121 80EE D340             OUT H'40
+000122 80F0 3EE0             MVI A,h'E0
+000123 80F2 D341             OUT H'41
+000124 80F4 3ED5             MVI A,h'D5
+000125 80F6 D340             OUT H'40
+000126 80F8 3EDE             MVI A,h'DE
+000127 80FA D341             OUT H'41
+000128 80FC 3ED8             MVI A,h'D8
+000129 80FE D340             OUT H'40
+000130 8100 3EDC             MVI A,h'DC
+000131 8102 D341             OUT H'41
+000132 8104 3EDA             MVI A,h'DA
+000133 8106 D340             OUT H'40
+000134 8108 3ED9             MVI A,h'D9
+000135 810A D341             OUT H'41
+000136 810C 3EDC             MVI A,h'DC
+000137 810E D340             OUT H'40
+000138 8110 3ED7             MVI A,h'D7
+000139 8112 D341             OUT H'41
+000140 8114 3EDE             MVI A,h'DE
+000141 8116 D340             OUT H'40
+000142 8118 3ED5             MVI A,h'D5
+000143 811A D341             OUT H'41
+000144 811C 3EE0             MVI A,h'E0
+000145 811E D340             OUT H'40
+000146 8120 3ED2             MVI A,h'D2
+000147 8122 D341             OUT H'41
+000148 8124 3EE2             MVI A,h'E2
+000149 8126 D340             OUT H'40
+000150 8128 3ED0             MVI A,h'D0
+000151 812A D341             OUT H'41
+000152 812C 3EE4             MVI A,h'E4
+000153 812E D340             OUT H'40
+000154 8130 3ECE             MVI A,h'CE
+000155 8132 D341             OUT H'41
+000156 8134 3EE6             MVI A,h'E6
+000157 8136 D340             OUT H'40
+000158 8138 3ECB             MVI A,h'CB
+000159 813A D341             OUT H'41
+000160 813C 3EE8             MVI A,h'E8
+000161 813E D340             OUT H'40
+000162 8140 3EC9             MVI A,h'C9
+000163 8142 D341             OUT H'41
+000164 8144 3EEA             MVI A,h'EA
+000165 8146 D340             OUT H'40
+000166 8148 3EC6             MVI A,h'C6
+000167 814A D341             OUT H'41
+000168 814C 3EEB             MVI A,h'EB
+000169 814E D340             OUT H'40
+000170 8150 3EC3             MVI A,h'C3
+000171 8152 D341             OUT H'41
+000172 8154 3EED             MVI A,h'ED
+000173 8156 D340             OUT H'40
+000174 8158 3EC1             MVI A,h'C1
+000175 815A D341             OUT H'41
+000176 815C 3EEF             MVI A,h'EF
+000177 815E D340             OUT H'40
+000178 8160 3EBE             MVI A,h'BE
+000179 8162 D341             OUT H'41
+000180 8164 3EF0             MVI A,h'F0
+000181 8166 D340             OUT H'40
+000182 8168 3EBB             MVI A,h'BB
+000183 816A D341             OUT H'41
+000184 816C 3EF2             MVI A,h'F2
+000185 816E D340             OUT H'40
+000186 8170 3EB8             MVI A,h'B8
+000187 8172 D341             OUT H'41
+000188 8174 3EF3             MVI A,h'F3
+000189 8176 D340             OUT H'40
+000190 8178 3EB6             MVI A,h'B6
+000191 817A D341             OUT H'41
+000192 817C 3EF4             MVI A,h'F4
+000193 817E D340             OUT H'40
+000194 8180 3EB3             MVI A,h'B3
+000195 8182 D341             OUT H'41
+000196 8184 3EF6             MVI A,h'F6
+000197 8186 D340             OUT H'40
+000198 8188 3EB0             MVI A,h'B0
+000199 818A D341             OUT H'41
+000200 818C 3EF7             MVI A,h'F7
+000201 818E D340             OUT H'40
+000202 8190 3EAD             MVI A,h'AD
+000203 8192 D341             OUT H'41
+000204 8194 3EF8             MVI A,h'F8
+000205 8196 D340             OUT H'40
+000206 8198 3EAA             MVI A,h'AA
+000207 819A D341             OUT H'41
+000208 819C 3EF9             MVI A,h'F9
+000209 819E D340             OUT H'40
+000210 81A0 3EA7             MVI A,h'A7
+000211 81A2 D341             OUT H'41
+000212 81A4 3EFA             MVI A,h'FA
+000213 81A6 D340             OUT H'40
+000214 81A8 3EA4             MVI A,h'A4
+000215 81AA D341             OUT H'41
+000216 81AC 3EFB             MVI A,h'FB
+000217 81AE D340             OUT H'40
+000218 81B0 3EA1             MVI A,h'A1
+000219 81B2 D341             OUT H'41
+000220 81B4 3EFB             MVI A,h'FB
+000221 81B6 D340             OUT H'40
+000222 81B8 3E9E             MVI A,h'9E
+000223 81BA D341             OUT H'41
+000224 81BC 3EFC             MVI A,h'FC
+000225 81BE D340             OUT H'40
+000226 81C0 3E9B             MVI A,h'9B
+000227 81C2 D341             OUT H'41
+000228 81C4 3EFD             MVI A,h'FD
+000229 81C6 D340             OUT H'40
+000230 81C8 3E98             MVI A,h'98
+000231 81CA D341             OUT H'41
+000232 81CC 3EFD             MVI A,h'FD
+000233 81CE D340             OUT H'40
+000234 81D0 3E95             MVI A,h'95
+000235 81D2 D341             OUT H'41
+000236 81D4 3EFE             MVI A,h'FE
+000237 81D6 D340             OUT H'40
+000238 81D8 3E92             MVI A,h'92
+000239 81DA D341             OUT H'41
+000240 81DC 3EFE             MVI A,h'FE
+000241 81DE D340             OUT H'40
+000242 81E0 3E8E             MVI A,h'8E
+000243 81E2 D341             OUT H'41
+000244 81E4 3EFE             MVI A,h'FE
+000245 81E6 D340             OUT H'40
+000246 81E8 3E8B             MVI A,h'8B
+000247 81EA D341             OUT H'41
+000248 81EC 3EFF             MVI A,h'FF
+000249 81EE D340             OUT H'40
+000250 81F0 3E88             MVI A,h'88
+000251 81F2 D341             OUT H'41
+000252 81F4 3EFF             MVI A,h'FF
+000253 81F6 D340             OUT H'40
+000254 81F8 3E85             MVI A,h'85
+000255 81FA D341             OUT H'41
+000256 81FC 3EFF             MVI A,h'FF
+000257 81FE D340             OUT H'40
+000258 8200 3E82             MVI A,h'82
+000259 8202 D341             OUT H'41
+000260 8204 3EFF             MVI A,h'FF
+000261 8206 D340             OUT H'40
+000262 8208 3E7F             MVI A,h'7F
+000263 820A D341             OUT H'41
+000264 820C 3EFF             MVI A,h'FF
+000265 820E D340             OUT H'40
+000266 8210 3E7C             MVI A,h'7C
+000267 8212 D341             OUT H'41
+000268 8214 3EFF             MVI A,h'FF
+000269 8216 D340             OUT H'40
+000270 8218 3E78             MVI A,h'78
+000271 821A D341             OUT H'41
+000272 821C 3EFF             MVI A,h'FF
+000273 821E D340             OUT H'40
+000274 8220 3E75             MVI A,h'75
+000275 8222 D341             OUT H'41
+000276 8224 3EFE             MVI A,h'FE
+000277 8226 D340             OUT H'40
+000278 8228 3E72             MVI A,h'72
+000279 822A D341             OUT H'41
+000280 822C 3EFE             MVI A,h'FE
+000281 822E D340             OUT H'40
+000282 8230 3E6F             MVI A,h'6F
+000283 8232 D341             OUT H'41
+000284 8234 3EFD             MVI A,h'FD
+000285 8236 D340             OUT H'40
+000286 8238 3E6C             MVI A,h'6C
+000287 823A D341             OUT H'41
+000288 823C 3EFD             MVI A,h'FD
+000289 823E D340             OUT H'40
+000290 8240 3E69             MVI A,h'69
+000291 8242 D341             OUT H'41
+000292 8244 3EFC             MVI A,h'FC
+000293 8246 D340             OUT H'40
+000294 8248 3E66             MVI A,h'66
+000295 824A D341             OUT H'41
+000296 824C 3EFC             MVI A,h'FC
+000297 824E D340             OUT H'40
+000298 8250 3E63             MVI A,h'63
+000299 8252 D341             OUT H'41
+000300 8254 3EFB             MVI A,h'FB
+000301 8256 D340             OUT H'40
+000302 8258 3E60             MVI A,h'60
+000303 825A D341             OUT H'41
+000304 825C 3EFA             MVI A,h'FA
+000305 825E D340             OUT H'40
+000306 8260 3E5D             MVI A,h'5D
+000307 8262 D341             OUT H'41
+000308 8264 3EF9             MVI A,h'F9
+000309 8266 D340             OUT H'40
+000310 8268 3E5A             MVI A,h'5A
+000311 826A D341             OUT H'41
+000312 826C 3EF8             MVI A,h'F8
+000313 826E D340             OUT H'40
+000314 8270 3E57             MVI A,h'57
+000315 8272 D341             OUT H'41
+000316 8274 3EF7             MVI A,h'F7
+000317 8276 D340             OUT H'40
+000318 8278 3E54             MVI A,h'54
+000319 827A D341             OUT H'41
+000320 827C 3EF6             MVI A,h'F6
+000321 827E D340             OUT H'40
+000322 8280 3E51             MVI A,h'51
+000323 8282 D341             OUT H'41
+000324 8284 3EF5             MVI A,h'F5
+000325 8286 D340             OUT H'40
+000326 8288 3E4E             MVI A,h'4E
+000327 828A D341             OUT H'41
+000328 828C 3EF4             MVI A,h'F4
+000329 828E D340             OUT H'40
+000330 8290 3E4B             MVI A,h'4B
+000331 8292 D341             OUT H'41
+000332 8294 3EF2             MVI A,h'F2
+000333 8296 D340             OUT H'40
+000334 8298 3E48             MVI A,h'48
+000335 829A D341             OUT H'41
+000336 829C 3EF1             MVI A,h'F1
+000337 829E D340             OUT H'40
+000338 82A0 3E45             MVI A,h'45
+000339 82A2 D341             OUT H'41
+000340 82A4 3EEF             MVI A,h'EF
+000341 82A6 D340             OUT H'40
+000342 82A8 3E42             MVI A,h'42
+000343 82AA D341             OUT H'41
+000344 82AC 3EEE             MVI A,h'EE
+000345 82AE D340             OUT H'40
+000346 82B0 3E40             MVI A,h'40
+000347 82B2 D341             OUT H'41
+000348 82B4 3EEC             MVI A,h'EC
+000349 82B6 D340             OUT H'40
+000350 82B8 3E3D             MVI A,h'3D
+000351 82BA D341             OUT H'41
+000352 82BC 3EEB             MVI A,h'EB
+000353 82BE D340             OUT H'40
+000354 82C0 3E3A             MVI A,h'3A
+000355 82C2 D341             OUT H'41
+000356 82C4 3EE9             MVI A,h'E9
+000357 82C6 D340             OUT H'40
+000358 82C8 3E38             MVI A,h'38
+000359 82CA D341             OUT H'41
+000360 82CC 3EE7             MVI A,h'E7
+000361 82CE D340             OUT H'40
+000362 82D0 3E35             MVI A,h'35
+000363 82D2 D341             OUT H'41
+000364 82D4 3EE5             MVI A,h'E5
+000365 82D6 D340             OUT H'40
+000366 82D8 3E33             MVI A,h'33
+000367 82DA D341             OUT H'41
+000368 82DC 3EE3             MVI A,h'E3
+000369 82DE D340             OUT H'40
+000370 82E0 3E30             MVI A,h'30
+000371 82E2 D341             OUT H'41
+000372 82E4 3EE1             MVI A,h'E1
+000373 82E6 D340             OUT H'40
+000374 82E8 3E2E             MVI A,h'2E
+000375 82EA D341             OUT H'41
+000376 82EC 3EDF             MVI A,h'DF
+000377 82EE D340             OUT H'40
+000378 82F0 3E2B             MVI A,h'2B
+000379 82F2 D341             OUT H'41
+000380 82F4 3EDD             MVI A,h'DD
+000381 82F6 D340             OUT H'40
+000382 82F8 3E29             MVI A,h'29
+000383 82FA D341             OUT H'41
+000384 82FC 3EDB             MVI A,h'DB
+000385 82FE D340             OUT H'40
+000386 8300 3E27             MVI A,h'27
+000387 8302 D341             OUT H'41
+000388 8304 3ED9             MVI A,h'D9
+000389 8306 D340             OUT H'40
+000390 8308 3E25             MVI A,h'25
+000391 830A D341             OUT H'41
+000392 830C 3ED7             MVI A,h'D7
+000393 830E D340             OUT H'40
+000394 8310 3E22             MVI A,h'22
+000395 8312 D341             OUT H'41
+000396 8314 3ED4             MVI A,h'D4
+000397 8316 D340             OUT H'40
+000398 8318 3E20             MVI A,h'20
+000399 831A D341             OUT H'41
+000400 831C 3ED2             MVI A,h'D2
+000401 831E D340             OUT H'40
+000402 8320 3E1E             MVI A,h'1E
+000403 8322 D341             OUT H'41
+000404 8324 3ECF             MVI A,h'CF
+000405 8326 D340             OUT H'40
+000406 8328 3E1C             MVI A,h'1C
+000407 832A D341             OUT H'41
+000408 832C 3ECD             MVI A,h'CD
+000409 832E D340             OUT H'40
+000410 8330 3E1A             MVI A,h'1A
+000411 8332 D341             OUT H'41
+000412 8334 3ECA             MVI A,h'CA
+000413 8336 D340             OUT H'40
+000414 8338 3E18             MVI A,h'18
+000415 833A D341             OUT H'41
+000416 833C 3EC8             MVI A,h'C8
+000417 833E D340             OUT H'40
+000418 8340 3E17             MVI A,h'17
+000419 8342 D341             OUT H'41
+000420 8344 3EC5             MVI A,h'C5
+000421 8346 D340             OUT H'40
+000422 8348 3E15             MVI A,h'15
+000423 834A D341             OUT H'41
+000424 834C 3EC3             MVI A,h'C3
+000425 834E D340             OUT H'40
+000426 8350 3E13             MVI A,h'13
+000427 8352 D341             OUT H'41
+000428 8354 3EC0             MVI A,h'C0
+000429 8356 D340             OUT H'40
+000430 8358 3E11             MVI A,h'11
+000431 835A D341             OUT H'41
+000432 835C 3EBD             MVI A,h'BD
+000433 835E D340             OUT H'40
+000434 8360 3E10             MVI A,h'10
+000435 8362 D341             OUT H'41
+000436 8364 3EBA             MVI A,h'BA
+000437 8366 D340             OUT H'40
+000438 8368 3E0E             MVI A,h'0E
+000439 836A D341             OUT H'41
+000440 836C 3EB8             MVI A,h'B8
+000441 836E D340             OUT H'40
+000442 8370 3E0D             MVI A,h'0D
+000443 8372 D341             OUT H'41
+000444 8374 3EB5             MVI A,h'B5
+000445 8376 D340             OUT H'40
+000446 8378 3E0C             MVI A,h'0C
+000447 837A D341             OUT H'41
+000448 837C 3EB2             MVI A,h'B2
+000449 837E D340             OUT H'40
+000450 8380 3E0A             MVI A,h'0A
+000451 8382 D341             OUT H'41
+000452 8384 3EAF             MVI A,h'AF
+000453 8386 D340             OUT H'40
+000454 8388 3E09             MVI A,h'09
+000455 838A D341             OUT H'41
+000456 838C 3EAC             MVI A,h'AC
+000457 838E D340             OUT H'40
+000458 8390 3E08             MVI A,h'08
+000459 8392 D341             OUT H'41
+000460 8394 3EA9             MVI A,h'A9
+000461 8396 D340             OUT H'40
+000462 8398 3E07             MVI A,h'07
+000463 839A D341             OUT H'41
+000464 839C 3EA6             MVI A,h'A6
+000465 839E D340             OUT H'40
+000466 83A0 3E06             MVI A,h'06
+000467 83A2 D341             OUT H'41
+000468 83A4 3EA3             MVI A,h'A3
+000469 83A6 D340             OUT H'40
+000470 83A8 3E05             MVI A,h'05
+000471 83AA D341             OUT H'41
+000472 83AC 3EA0             MVI A,h'A0
+000473 83AE D340             OUT H'40
+000474 83B0 3E04             MVI A,h'04
+000475 83B2 D341             OUT H'41
+000476 83B4 3E9D             MVI A,h'9D
+000477 83B6 D340             OUT H'40
+000478 83B8 3E03             MVI A,h'03
+000479 83BA D341             OUT H'41
+000480 83BC 3E9A             MVI A,h'9A
+000481 83BE D340             OUT H'40
+000482 83C0 3E03             MVI A,h'03
+000483 83C2 D341             OUT H'41
+000484 83C4 3E97             MVI A,h'97
+000485 83C6 D340             OUT H'40
+000486 83C8 3E02             MVI A,h'02
+000487 83CA D341             OUT H'41
+000488 83CC 3E94             MVI A,h'94
+000489 83CE D340             OUT H'40
+000490 83D0 3E02             MVI A,h'02
+000491 83D2 D341             OUT H'41
+000492 83D4 3E91             MVI A,h'91
+000493 83D6 D340             OUT H'40
+000494 83D8 3E01             MVI A,h'01
+000495 83DA D341             OUT H'41
+000496 83DC 3E8E             MVI A,h'8E
+000497 83DE D340             OUT H'40
+000498 83E0 3E01             MVI A,h'01
+000499 83E2 D341             OUT H'41
+000500 83E4 3E8A             MVI A,h'8A
+000501 83E6 D340             OUT H'40
+000502 83E8 3E00             MVI A,h'00
+000503 83EA D341             OUT H'41
+000504 83EC 3E87             MVI A,h'87
+000505 83EE D340             OUT H'40
+000506 83F0 3E00             MVI A,h'00
+000507 83F2 D341             OUT H'41
+000508 83F4 3E84             MVI A,h'84
+000509 83F6 D340             OUT H'40
+000510 83F8 3E00             MVI A,h'00
+000511 83FA D341             OUT H'41
+000512 83FC 3E81             MVI A,h'81
+000513 83FE D340             OUT H'40
+000514 8400 3E00             MVI A,h'00
+000515 8402 D341             OUT H'41
+000516 8404 3E7E             MVI A,h'7E
+000517 8406 D340             OUT H'40
+000518 8408 3E00             MVI A,h'00
+000519 840A D341             OUT H'41
+000520 840C 3E7B             MVI A,h'7B
+000521 840E D340             OUT H'40
+000522 8410 3E00             MVI A,h'00
+000523 8412 D341             OUT H'41
+000524 8414 3E78             MVI A,h'78
+000525 8416 D340             OUT H'40
+000526 8418 3E00             MVI A,h'00
+000527 841A D341             OUT H'41
+000528 841C 3E75             MVI A,h'75
+000529 841E D340             OUT H'40
+000530 8420 3E00             MVI A,h'00
+000531 8422 D341             OUT H'41
+000532 8424 3E71             MVI A,h'71
+000533 8426 D340             OUT H'40
+000534 8428 3E01             MVI A,h'01
+000535 842A D341             OUT H'41
+000536 842C 3E6E             MVI A,h'6E
+000537 842E D340             OUT H'40
+000538 8430 3E01             MVI A,h'01
+000539 8432 D341             OUT H'41
+000540 8434 3E6B             MVI A,h'6B
+000541 8436 D340             OUT H'40
+000542 8438 3E02             MVI A,h'02
+000543 843A D341             OUT H'41
+000544 843C 3E68             MVI A,h'68
+000545 843E D340             OUT H'40
+000546 8440 3E02             MVI A,h'02
+000547 8442 D341             OUT H'41
+000548 8444 3E65             MVI A,h'65
+000549 8446 D340             OUT H'40
+000550 8448 3E03             MVI A,h'03
+000551 844A D341             OUT H'41
+000552 844C 3E62             MVI A,h'62
+000553 844E D340             OUT H'40
+000554 8450 3E03             MVI A,h'03
+000555 8452 D341             OUT H'41
+000556 8454 3E5F             MVI A,h'5F
+000557 8456 D340             OUT H'40
+000558 8458 3E04             MVI A,h'04
+000559 845A D341             OUT H'41
+000560 845C 3E5C             MVI A,h'5C
+000561 845E D340             OUT H'40
+000562 8460 3E05             MVI A,h'05
+000563 8462 D341             OUT H'41
+000564 8464 3E59             MVI A,h'59
+000565 8466 D340             OUT H'40
+000566 8468 3E06             MVI A,h'06
+000567 846A D341             OUT H'41
+000568 846C 3E56             MVI A,h'56
+000569 846E D340             OUT H'40
+000570 8470 3E07             MVI A,h'07
+000571 8472 D341             OUT H'41
+000572 8474 3E53             MVI A,h'53
+000573 8476 D340             OUT H'40
+000574 8478 3E08             MVI A,h'08
+000575 847A D341             OUT H'41
+000576 847C 3E50             MVI A,h'50
+000577 847E D340             OUT H'40
+000578 8480 3E09             MVI A,h'09
+000579 8482 D341             OUT H'41
+000580 8484 3E4D             MVI A,h'4D
+000581 8486 D340             OUT H'40
+000582 8488 3E0A             MVI A,h'0A
+000583 848A D341             OUT H'41
+000584 848C 3E4A             MVI A,h'4A
+000585 848E D340             OUT H'40
+000586 8490 3E0C             MVI A,h'0C
+000587 8492 D341             OUT H'41
+000588 8494 3E47             MVI A,h'47
+000589 8496 D340             OUT H'40
+000590 8498 3E0D             MVI A,h'0D
+000591 849A D341             OUT H'41
+000592 849C 3E45             MVI A,h'45
+000593 849E D340             OUT H'40
+000594 84A0 3E0E             MVI A,h'0E
+000595 84A2 D341             OUT H'41
+000596 84A4 3E42             MVI A,h'42
+000597 84A6 D340             OUT H'40
+000598 84A8 3E10             MVI A,h'10
+000599 84AA D341             OUT H'41
+000600 84AC 3E3F             MVI A,h'3F
+000601 84AE D340             OUT H'40
+000602 84B0 3E11             MVI A,h'11
+000603 84B2 D341             OUT H'41
+000604 84B4 3E3C             MVI A,h'3C
+000605 84B6 D340             OUT H'40
+000606 84B8 3E13             MVI A,h'13
+000607 84BA D341             OUT H'41
+000608 84BC 3E3A             MVI A,h'3A
+000609 84BE D340             OUT H'40
+000610 84C0 3E15             MVI A,h'15
+000611 84C2 D341             OUT H'41
+000612 84C4 3E37             MVI A,h'37
+000613 84C6 D340             OUT H'40
+000614 84C8 3E17             MVI A,h'17
+000615 84CA D341             OUT H'41
+000616 84CC 3E35             MVI A,h'35
+000617 84CE D340             OUT H'40
+000618 84D0 3E18             MVI A,h'18
+000619 84D2 D341             OUT H'41
+000620 84D4 3E32             MVI A,h'32
+000621 84D6 D340             OUT H'40
+000622 84D8 3E1A             MVI A,h'1A
+000623 84DA D341             OUT H'41
+000624 84DC 3E30             MVI A,h'30
+000625 84DE D340             OUT H'40
+000626 84E0 3E1C             MVI A,h'1C
+000627 84E2 D341             OUT H'41
+000628 84E4 3E2D             MVI A,h'2D
+000629 84E6 D340             OUT H'40
+000630 84E8 3E1E             MVI A,h'1E
+000631 84EA D341             OUT H'41
+000632 84EC 3E2B             MVI A,h'2B
+000633 84EE D340             OUT H'40
+000634 84F0 3E20             MVI A,h'20
+000635 84F2 D341             OUT H'41
+000636 84F4 3E28             MVI A,h'28
+000637 84F6 D340             OUT H'40
+000638 84F8 3E22             MVI A,h'22
+000639 84FA D341             OUT H'41
+000640 84FC 3E26             MVI A,h'26
+000641 84FE D340             OUT H'40
+000642 8500 3E25             MVI A,h'25
+000643 8502 D341             OUT H'41
+000644 8504 3E24             MVI A,h'24
+000645 8506 D340             OUT H'40
+000646 8508 3E27             MVI A,h'27
+000647 850A D341             OUT H'41
+000648 850C 3E22             MVI A,h'22
+000649 850E D340             OUT H'40
+000650 8510 3E29             MVI A,h'29
+000651 8512 D341             OUT H'41
+000652 8514 3E20             MVI A,h'20
+000653 8516 D340             OUT H'40
+000654 8518 3E2B             MVI A,h'2B
+000655 851A D341             OUT H'41
+000656 851C 3E1E             MVI A,h'1E
+000657 851E D340             OUT H'40
+000658 8520 3E2E             MVI A,h'2E
+000659 8522 D341             OUT H'41
+000660 8524 3E1C             MVI A,h'1C
+000661 8526 D340             OUT H'40
+000662 8528 3E30             MVI A,h'30
+000663 852A D341             OUT H'41
+000664 852C 3E1A             MVI A,h'1A
+000665 852E D340             OUT H'40
+000666 8530 3E33             MVI A,h'33
+000667 8532 D341             OUT H'41
+000668 8534 3E18             MVI A,h'18
+000669 8536 D340             OUT H'40
+000670 8538 3E35             MVI A,h'35
+000671 853A D341             OUT H'41
+000672 853C 3E16             MVI A,h'16
+000673 853E D340             OUT H'40
+000674 8540 3E38             MVI A,h'38
+000675 8542 D341             OUT H'41
+000676 8544 3E14             MVI A,h'14
+000677 8546 D340             OUT H'40
+000678 8548 3E3A             MVI A,h'3A
+000679 854A D341             OUT H'41
+000680 854C 3E13             MVI A,h'13
+000681 854E D340             OUT H'40
+000682 8550 3E3D             MVI A,h'3D
+000683 8552 D341             OUT H'41
+000684 8554 3E11             MVI A,h'11
+000685 8556 D340             OUT H'40
+000686 8558 3E40             MVI A,h'40
+000687 855A D341             OUT H'41
+000688 855C 3E10             MVI A,h'10
+000689 855E D340             OUT H'40
+000690 8560 3E42             MVI A,h'42
+000691 8562 D341             OUT H'41
+000692 8564 3E0E             MVI A,h'0E
+000693 8566 D340             OUT H'40
+000694 8568 3E45             MVI A,h'45
+000695 856A D341             OUT H'41
+000696 856C 3E0D             MVI A,h'0D
+000697 856E D340             OUT H'40
+000698 8570 3E48             MVI A,h'48
+000699 8572 D341             OUT H'41
+000700 8574 3E0B             MVI A,h'0B
+000701 8576 D340             OUT H'40
+000702 8578 3E4B             MVI A,h'4B
+000703 857A D341             OUT H'41
+000704 857C 3E0A             MVI A,h'0A
+000705 857E D340             OUT H'40
+000706 8580 3E4E             MVI A,h'4E
+000707 8582 D341             OUT H'41
+000708 8584 3E09             MVI A,h'09
+000709 8586 D340             OUT H'40
+000710 8588 3E51             MVI A,h'51
+000711 858A D341             OUT H'41
+000712 858C 3E08             MVI A,h'08
+000713 858E D340             OUT H'40
+000714 8590 3E54             MVI A,h'54
+000715 8592 D341             OUT H'41
+000716 8594 3E07             MVI A,h'07
+000717 8596 D340             OUT H'40
+000718 8598 3E57             MVI A,h'57
+000719 859A D341             OUT H'41
+000720 859C 3E06             MVI A,h'06
+000721 859E D340             OUT H'40
+000722 85A0 3E5A             MVI A,h'5A
+000723 85A2 D341             OUT H'41
+000724 85A4 3E05             MVI A,h'05
+000725 85A6 D340             OUT H'40
+000726 85A8 3E5D             MVI A,h'5D
+000727 85AA D341             OUT H'41
+000728 85AC 3E04             MVI A,h'04
+000729 85AE D340             OUT H'40
+000730 85B0 3E60             MVI A,h'60
+000731 85B2 D341             OUT H'41
+000732 85B4 3E03             MVI A,h'03
+000733 85B6 D340             OUT H'40
+000734 85B8 3E63             MVI A,h'63
+000735 85BA D341             OUT H'41
+000736 85BC 3E03             MVI A,h'03
+000737 85BE D340             OUT H'40
+000738 85C0 3E66             MVI A,h'66
+000739 85C2 D341             OUT H'41
+000740 85C4 3E02             MVI A,h'02
+000741 85C6 D340             OUT H'40
+000742 85C8 3E69             MVI A,h'69
+000743 85CA D341             OUT H'41
+000744 85CC 3E02             MVI A,h'02
+000745 85CE D340             OUT H'40
+000746 85D0 3E6C             MVI A,h'6C
+000747 85D2 D341             OUT H'41
+000748 85D4 3E01             MVI A,h'01
+000749 85D6 D340             OUT H'40
+000750 85D8 3E6F             MVI A,h'6F
+000751 85DA D341             OUT H'41
+000752 85DC 3E01             MVI A,h'01
+000753 85DE D340             OUT H'40
+000754 85E0 3E72             MVI A,h'72
+000755 85E2 D341             OUT H'41
+000756 85E4 3E00             MVI A,h'00
+000757 85E6 D340             OUT H'40
+000758 85E8 3E75             MVI A,h'75
+000759 85EA D341             OUT H'41
+000760 85EC 3E00             MVI A,h'00
+000761 85EE D340             OUT H'40
+000762 85F0 3E78             MVI A,h'78
+000763 85F2 D341             OUT H'41
+000764 85F4 3E00             MVI A,h'00
+000765 85F6 D340             OUT H'40
+000766 85F8 3E7C             MVI A,h'7C
+000767 85FA D341             OUT H'41
+000768 85FC 3E00             MVI A,h'00
+000769 85FE D340             OUT H'40
+000770 8600 3E7F             MVI A,h'7F
+000771 8602 D341             OUT H'41
+000772 8604 3E00             MVI A,h'00
+000773 8606 D340             OUT H'40
+000774 8608 3E82             MVI A,h'82
+000775 860A D341             OUT H'41
+000776 860C 3E00             MVI A,h'00
+000777 860E D340             OUT H'40
+000778 8610 3E85             MVI A,h'85
+000779 8612 D341             OUT H'41
+000780 8614 3E00             MVI A,h'00
+000781 8616 D340             OUT H'40
+000782 8618 3E88             MVI A,h'88
+000783 861A D341             OUT H'41
+000784 861C 3E01             MVI A,h'01
+000785 861E D340             OUT H'40
+000786 8620 3E8B             MVI A,h'8B
+000787 8622 D341             OUT H'41
+000788 8624 3E01             MVI A,h'01
+000789 8626 D340             OUT H'40
+000790 8628 3E8E             MVI A,h'8E
+000791 862A D341             OUT H'41
+000792 862C 3E01             MVI A,h'01
+000793 862E D340             OUT H'40
+000794 8630 3E92             MVI A,h'92
+000795 8632 D341             OUT H'41
+000796 8634 3E02             MVI A,h'02
+000797 8636 D340             OUT H'40
+000798 8638 3E95             MVI A,h'95
+000799 863A D341             OUT H'41
+000800 863C 3E02             MVI A,h'02
+000801 863E D340             OUT H'40
+000802 8640 3E98             MVI A,h'98
+000803 8642 D341             OUT H'41
+000804 8644 3E03             MVI A,h'03
+000805 8646 D340             OUT H'40
+000806 8648 3E9B             MVI A,h'9B
+000807 864A D341             OUT H'41
+000808 864C 3E04             MVI A,h'04
+000809 864E D340             OUT H'40
+000810 8650 3E9E             MVI A,h'9E
+000811 8652 D341             OUT H'41
+000812 8654 3E04             MVI A,h'04
+000813 8656 D340             OUT H'40
+000814 8658 3EA1             MVI A,h'A1
+000815 865A D341             OUT H'41
+000816 865C 3E05             MVI A,h'05
+000817 865E D340             OUT H'40
+000818 8660 3EA4             MVI A,h'A4
+000819 8662 D341              OUT H'41
+000820 8664 3E06             MVI A,h'06
+000821 8666 D340             OUT H'40
+000822 8668 3EA7             MVI A,h'A7
+000823 866A D341             OUT H'41
+000824 866C 3E07             MVI A,h'07
+000825 866E D340             OUT H'40
+000826 8670 3EAA             MVI A,h'AA
+000827 8672 D341             OUT H'41
+000828 8674 3E08             MVI A,h'08
+000829 8676 D340             OUT H'40
+000830 8678 3EAD             MVI A,h'AD
+000831 867A D341             OUT H'41
+000832 867C 3E09             MVI A,h'09
+000833 867E D340             OUT H'40
+000834 8680 3EB0             MVI A,h'B0
+000835 8682 D341             OUT H'41
+000836 8684 3E0B             MVI A,h'0B
+000837 8686 D340             OUT H'40
+000838 8688 3EB3             MVI A,h'B3
+000839 868A D341             OUT H'41
+000840 868C 3E0C             MVI A,h'0C
+000841 868E D340             OUT H'40
+000842 8690 3EB6             MVI A,h'B6
+000843 8692 D341             OUT H'41
+000844 8694 3E0D             MVI A,h'0D
+000845 8696 D340             OUT H'40
+000846 8698 3EB8             MVI A,h'B8
+000847 869A D341             OUT H'41
+000848 869C 3E0F             MVI A,h'0F
+000849 869E D340             OUT H'40
+000850 86A0 3EBB             MVI A,h'BB
+000851 86A2 D341             OUT H'41
+000852 86A4 3E10             MVI A,h'10
+000853 86A6 D340             OUT H'40
+000854 86A8 3EBE             MVI A,h'BE
+000855 86AA D341             OUT H'41
+000856 86AC 3E12             MVI A,h'12
+000857 86AE D340             OUT H'40
+000858 86B0 3EC1             MVI A,h'C1
+000859 86B2 D341             OUT H'41
+000860 86B4 3E14             MVI A,h'14
+000861 86B6 D340             OUT H'40
+000862 86B8 3EC3             MVI A,h'C3
+000863 86BA D341             OUT H'41
+000864 86BC 3E15             MVI A,h'15
+000865 86BE D340             OUT H'40
+000866 86C0 3EC6             MVI A,h'C6
+000867 86C2 D341             OUT H'41
+000868 86C4 3E17             MVI A,h'17
+000869 86C6 D340             OUT H'40
+000870 86C8 3EC9             MVI A,h'C9
+000871 86CA D341             OUT H'41
+000872 86CC 3E19             MVI A,h'19
+000873 86CE D340             OUT H'40
+000874 86D0 3ECB             MVI A,h'CB
+000875 86D2 D341             OUT H'41
+000876 86D4 3E1B             MVI A,h'1B
+000877 86D6 D340             OUT H'40
+000878 86D8 3ECE             MVI A,h'CE
+000879 86DA D341             OUT H'41
+000880 86DC 3E1D             MVI A,h'1D
+000881 86DE D340             OUT H'40
+000882 86E0 3ED0             MVI A,h'D0
+000883 86E2 D341             OUT H'41
+000884 86E4 3E1F             MVI A,h'1F
+000885 86E6 D340             OUT H'40
+000886 86E8 3ED2             MVI A,h'D2
+000887 86EA D341             OUT H'41
+000888 86EC 3E21             MVI A,h'21
+000889 86EE D340             OUT H'40
+000890 86F0 3ED5             MVI A,h'D5
+000891 86F2 D341             OUT H'41
+000892 86F4 3E23             MVI A,h'23
+000893 86F6 D340             OUT H'40
+000894 86F8 3ED7             MVI A,h'D7
+000895 86FA D341             OUT H'41
+000896 86FC 3E25             MVI A,h'25
+000897 86FE D340             OUT H'40
+000898 8700 3ED9             MVI A,h'D9
+000899 8702 D341             OUT H'41
+000900 8704 3E27             MVI A,h'27
+000901 8706 D340             OUT H'40
+000902 8708 3EDC             MVI A,h'DC
+000903 870A D341             OUT H'41
+000904 870C 3E2A             MVI A,h'2A
+000905 870E D340             OUT H'40
+000906 8710 3EDE             MVI A,h'DE
+000907 8712 D341             OUT H'41
+000908 8714 3E2C             MVI A,h'2C
+000909 8716 D340             OUT H'40
+000910 8718 3EE0             MVI A,h'E0
+000911 871A D341             OUT H'41
+000912 871C 3E2E             MVI A,h'2E
+000913 871E D340             OUT H'40
+000914 8720 3EE2             MVI A,h'E2
+000915 8722 D341             OUT H'41
+000916 8724 3E31             MVI A,h'31
+000917 8726 D340             OUT H'40
+000918 8728 3EE4             MVI A,h'E4
+000919 872A D341             OUT H'41
+000920 872C 3E33             MVI A,h'33
+000921 872E D340             OUT H'40
+000922 8730 3EE6             MVI A,h'E6
+000923 8732 D341             OUT H'41
+000924 8734 3E36             MVI A,h'36
+000925 8736 D340             OUT H'40
+000926 8738 3EE8             MVI A,h'E8
+000927 873A D341             OUT H'41
+000928 873C 3E38             MVI A,h'38
+000929 873E D340             OUT H'40
+000930 8740 3EE9             MVI A,h'E9
+000931 8742 D341             OUT H'41
+000932 8744 3E3B             MVI A,h'3B
+000933 8746 D340             OUT H'40
+000934 8748 3EEB             MVI A,h'EB
+000935 874A D341             OUT H'41
+000936 874C 3E3E             MVI A,h'3E
+000937 874E D340             OUT H'40
+000938 8750 3EED             MVI A,h'ED
+000939 8752 D341             OUT H'41
+000940 8754 3E40             MVI A,h'40
+000941 8756 D340             OUT H'40
+000942 8758 3EEE             MVI A,h'EE
+000943 875A D341             OUT H'41
+000944 875C 3E43             MVI A,h'43
+000945 875E D340             OUT H'40
+000946 8760 3EF0             MVI A,h'F0
+000947 8762 D341             OUT H'41
+000948 8764 3E46             MVI A,h'46
+000949 8766 D340             OUT H'40
+000950 8768 3EF1             MVI A,h'F1
+000951 876A D341             OUT H'41
+000952 876C 3E49             MVI A,h'49
+000953 876E D340             OUT H'40
+000954 8770 3EF3             MVI A,h'F3
+000955 8772 D341             OUT H'41
+000956 8774 3E4C             MVI A,h'4C
+000957 8776 D340             OUT H'40
+000958 8778 3EF4             MVI A,h'F4
+000959 877A D341             OUT H'41
+000960 877C 3E4F             MVI A,h'4F
+000961 877E D340             OUT H'40
+000962 8780 3EF5             MVI A,h'F5
+000963 8782 D341             OUT H'41
+000964 8784 3E51             MVI A,h'51
+000965 8786 D340             OUT H'40
+000966 8788 3EF6             MVI A,h'F6
+000967 878A D341             OUT H'41
+000968 878C 3E54             MVI A,h'54
+000969 878E D340             OUT H'40
+000970 8790 3EF7             MVI A,h'F7
+000971 8792 D341             OUT H'41
+000972 8794 3E57             MVI A,h'57
+000973 8796 D340             OUT H'40
+000974 8798 3EF9             MVI A,h'F9
+000975 879A D341             OUT H'41
+000976 879C 3E5A             MVI A,h'5A
+000977 879E D340             OUT H'40
+000978 87A0 3EF9             MVI A,h'F9
+000979 87A2 D341             OUT H'41
+000980 87A4 3E5D             MVI A,h'5D
+000981 87A6 D340             OUT H'40
+000982 87A8 3EFA             MVI A,h'FA
+000983 87AA D341             OUT H'41
+000984 87AC 3E60             MVI A,h'60
+000985 87AE D340             OUT H'40
+000986 87B0 3EFB             MVI A,h'FB
+000987 87B2 D341             OUT H'41
+000988 87B4 3E63             MVI A,h'63
+000989 87B6 D340             OUT H'40
+000990 87B8 3EFC             MVI A,h'FC
+000991 87BA D341             OUT H'41
+000992 87BC 3E67             MVI A,h'67
+000993 87BE D340             OUT H'40
+000994 87C0 3EFD             MVI A,h'FD
+000995 87C2 D341             OUT H'41
+000996 87C4 3E6A             MVI A,h'6A
+000997 87C6 D340             OUT H'40
+000998 87C8 3EFD             MVI A,h'FD
+000999 87CA D341             OUT H'41
+001000 87CC 3E6D             MVI A,h'6D
+001001 87CE D340             OUT H'40
+001002 87D0 3EFE             MVI A,h'FE
+001003 87D2 D341             OUT H'41
+001004 87D4 3E70             MVI A,h'70
+001005 87D6 D340             OUT H'40
+001006 87D8 3EFE             MVI A,h'FE
+001007 87DA D341             OUT H'41
+001008 87DC 3E73             MVI A,h'73
+001009 87DE D340             OUT H'40
+001010 87E0 3EFE             MVI A,h'FE
+001011 87E2 D341             OUT H'41
+001012 87E4 3E76             MVI A,h'76
+001013 87E6 D340             OUT H'40
+001014 87E8 3EFF             MVI A,h'FF
+001015 87EA D341             OUT H'41
+001016 87EC 3E79             MVI A,h'79
+001017 87EE D340             OUT H'40
+001018 87F0 3EFF             MVI A,h'FF
+001019 87F2 D341             OUT H'41
+001020 87F4 3E7C             MVI A,h'7C
+001021 87F6 D340             OUT H'40
+001022 87F8 3EFF             MVI A,h'FF
+001023 87FA D341             OUT H'41
+001024 87FC 3E7F             MVI A,h'7F
+001025 87FE D340             OUT H'40
+001026 8800 3EFF             MVI A,h'FF
+001027 8802 D341             OUT H'41
+001028 8804 C30480           JMP LOOP
+001029 8807                  .END                                                                                                                                                                                                                                         ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                 ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                  ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                   ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                    ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                     ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                      ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                       ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                        ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                         ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                          ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                           ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                            ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                             ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                              ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                               ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                 ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                  ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                   ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                    ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                     ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                      ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                       ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                        ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                         ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                          ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                           ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                            ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                             ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                              ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                               ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                 ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                  ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                   ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                    ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                     ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                      ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                       ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                        ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                         ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                          ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                           ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                            ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                             ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                              ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                               ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                 ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                  ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                   ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                    ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                     ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                      ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                       ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                        ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                         ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                          ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                           ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                            ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                             ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                              ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                               ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                 ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                  ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                   ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                    ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                     ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                      ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                       ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                        ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                         ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                          ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                           ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                            ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                             ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                              ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                               ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                 ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                  ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                   ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                    ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                     ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                      ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                       ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                        ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                         ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                          ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                           ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                            ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                             ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                              ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                               ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                 ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                  ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                   ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                    ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                     ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                      ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                       ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                        ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                         ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                          ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                           ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                            ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                             ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                              ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                               ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                 ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                  ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                   ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                    ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                     ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                      ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                       ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                        ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                         ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                          ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                           ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                            ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                             ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                              ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                               ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                 ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                  ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                   ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                    ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                     ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                      ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                       ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                        ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                         ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                          ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                           ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                             ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                             ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                              ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                               ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                 ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                  ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                   ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                    ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                     ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                      ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                       ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                        ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                         ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                          ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                           ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                            ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                             ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                              ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                               ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                 ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                  ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                   ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                    ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                     ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                      ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                       ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                        ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                         ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                          ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                           ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                            ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                             ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                              ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                               ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                 ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                  ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                   ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                    ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                     ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                      ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                       ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                        ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                         ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                          ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                           ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                            ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                             ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                              ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                               ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                                ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                                 ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                                  ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                                   ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                                    ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                                     ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                                      ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                                       ^
+  *****  Warning  ***** unrecognized character--blank substituted
+                                                                                                                                                                                                                                        ^
+  *****  Warning  ***** unrecognized character--blank substituted
+  *****  Warning  ***** no end of file mark in source
+                             ^
+  *****  Warning  ***** improperly formed expression--operand expected
+  *****  Warning  ***** no end of file mark in source
+LOOP    =8004  
+                                                                                    Warning  ***** unrecognized character--blank substituted
+                                                                     
